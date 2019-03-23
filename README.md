@@ -14,3 +14,8 @@
 
  ### TestDox 😊😺
  docker run --rm -v ~/code/getting-started-phpunit/:/home/app -w /home/app php:7-cli ./vendor/bin/phpunit --bootstrap vendor/autoload.php  --testdox tests
+
+## how to (in portuguese)
+
+[![video making repo](https://img.youtube.com/vi/xffqPdQHrTY/0.jpg)](https://www.youtube.com/watch?v=xffqPdQHrTY)
+
