@@ -5,6 +5,8 @@
 > from: https://phpunit.de/getting-started/phpunit-8.html
 
 ## run with docker 🐳
+ ### install dependencies
+ docker run --rm -v ~/code/getting-started-phpunit/:/home/app -w /home/app composer install
  
  ### view version
  docker run --rm -v ~/code/getting-started-phpunit/:/home/app -w /home/app php:7-cli ./vendor/bin/phpunit --version
